@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>hDC Agency</title>
         <!--bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <!--script -->
@@ -27,25 +27,41 @@
             <div class="container" id="nav-container">
                 <nav class="navbar navbar-expand-lg fized-top">
                     <a href="#" class="navbar-brand">
-                        <img  id="logo" src="img/hdcagency_logo.svg" alt="hDC Agency">hDC Agency
+                        <img id="logo" src="img/hdcagency_logo.svg" alt="hDC Agency">hDC Agency
                     </a>
-                
-                <button class="navbar-toggler" type="button" data-toggle="colapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggle-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
-                        <a class="nav-item nav-link" id="about-menu">Agência</a>
-                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
-                        <a class="nav-item nav-link" id="team-menu">Time</a>
-                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
-                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
-                    </div>
 
-                </div></nav>
+                    <button class="navbar-toggler" type="button" data-toggle="colapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggle-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link" id="home-menu">Home</a>
+                            <a class="nav-item nav-link" id="about-menu">Agência</a>
+                            <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                            <a class="nav-item nav-link" id="team-menu">Time</a>
+                            <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
+                            <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                        </div>
+
+                    </div>
+                </nav>
             </div>
         </header>
+        <main>
+            <div class="container-fluid">
+                <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                    <ol class="corousel-indicators">
+                        <li data-target="#mainSlider" daata-slide-to="0" class="active"></li>
+                        <li data-target="#mainSlider" daata-slide-to="1"></li>
+                        <li data-target="#mainSlider" daata-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carrousel-item active">
+                            <img src="img/banner1.png" alt="projetos e-commerce"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
         <script src="/js/script.js"></script>
     </body>
 </html>
